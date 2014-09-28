@@ -7,6 +7,7 @@ include SpecInfra::Helper::DetectOS
 
 RSpec.configure do |c|
   c.color = true
+  c.backtrace_exclusion_patterns = []
 
   if ENV['ASK_SUDO_PASSWORD']
     require 'highline/import'
