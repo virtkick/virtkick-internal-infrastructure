@@ -68,5 +68,11 @@ describe 'virtkick-webvirtmgr-backend' do
 end
 
 describe 'connection to hv1.alpha.virtkick.io' do
-  # TODO: ping
+  describe command 'ping -c 1 -W 1 hv1.alpha.virtkick.io' do
+    it { should return_exit_status 0 }
+  end
+
+  describe command 'getent hosts hv1.alpha.virtkick.io' do
+    its(:stdout) { should start_with "\n10." } # TODO: bug in serverspec, should not be prepended with \n
+  end
 end
