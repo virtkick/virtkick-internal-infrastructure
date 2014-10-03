@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/Nowaker/specinfra.git
-  revision: 3d926e618676769dd39f42fbf9d541468da14ac7
-  branch: arch-linux
+  revision: 26a7f63f5b18d37dcd0390166f11d8ae793f7653
+  branch: feature/arch-linux-detect
   specs:
-    specinfra (1.27.3)
+    specinfra (1.27.5)
 
 GEM
   remote: https://rubygems.org/

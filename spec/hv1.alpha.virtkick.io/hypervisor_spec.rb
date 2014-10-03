@@ -1,12 +1,6 @@
 require 'spec_helper'
 
 describe 'hv1.alpha.virtkick.io' do
-  before :all do
-    RSpec.configure do |c|
-      c.os = {family: 'Arch', release: nil, arch: 'x86_64'} # https://bugs.archlinux.org/task/42149
-    end
-  end
-
   %w(libvirt qemu dnsmasq ebtables bridge-utils dmidecode).each do |name|
     describe package name do
       it { should be_installed }
