@@ -1,4 +1,7 @@
-# Internal: VirtKick Infrastructure [![Gratipay](https://img.shields.io/gratipay/Nowaker.svg?style=flat-square)](https://gratipay.com/Nowaker/)
+# Internal: VirtKick Infrastructure
+
+[![GPA](https://img.shields.io/codeclimate/github/virtkick/virtkick-internal-infrastructure.svg?style=flat-square)](https://codeclimate.com/github/virtkick/virtkick-internal-infrastructure)
+[![Gratipay](https://img.shields.io/gratipay/virtkick.svg?style=flat-square)](https://gratipay.com/virtkick/)
 
 A few specs to make sure VirtKick infrastructure is configured correctly, e.g.:
 
@@ -11,7 +14,7 @@ You don't need this component to run VirtKick.
 
 ## Issues
 
-Please report an issue uf you have ideas what other infrastructure parts can be tested.
+Please report an issue if you have ideas what other infrastructure parts can be tested.
 
 
 ## Requirements
